@@ -242,7 +242,7 @@ body{
 /*end*/
 
 .fa-facebook:before {
-   /* content: "\f09a";*/
+    content: "\f09a";
     position: absolute;
     top: 6px;
     left: 8px;
@@ -626,31 +626,6 @@ body{
   background-color:#eee;  
 }
 
-@media (min-width: 992px) { 
-  #myCarousel {padding-right:33.3333%;}
-  #myCarousel .carousel-controls {display:none;}  
-}
-@media (max-width: 991px) { 
-  .carousel-caption p,
-  #myCarousel .list-group {display:none;} 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*tintuc*/
 
 #new-page {
@@ -833,7 +808,7 @@ body{
 }
 
 .img-news {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -906,7 +881,7 @@ body{
     font-size: 12px;
     font-weight: none;
     line-height: 20px;
-    white-space: nowrap;
+    /*white-space: nowrap;*/
     text-overflow: ellipsis;
     overflow: hidden;
     padding: 3px 0px 3px 0px;
@@ -1510,11 +1485,12 @@ span.title {
   background: #fff;
   border-top: 3px solid #0083d3;
   /* margin: 0px -15px 0px 0px;*/
+  margin-bottom: 15px;
 }
 
 .left-news {
   padding: 4px 15px 2px 15px;
-  display: grid;
+  display: inline-block;
 }
 .info-video .left-news{
   padding: 4px 15px 2px 15px;
@@ -1572,10 +1548,10 @@ span.title {
 
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
     .nav li:hover ul {
         display: block;
-      /*  left: 0;*/
+   
     }
     .content-page .container {
         padding: 0px;
@@ -1598,7 +1574,7 @@ span.title {
     .text-top .content-text .col-md-5{
         padding: 0px;
     }
-}
+}*/
 /*/MENU*/
 /*.header-nav {
   background-color: #fcfcff;
