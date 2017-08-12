@@ -2,7 +2,7 @@
 body{
 
     color: #000;
-    background: #f5f5f6;
+    background: #edf2fb;
     font-family: 'Open Sans', Arial, sans-serif;
     font-weight: normal;
     font-size: 14px;
@@ -529,7 +529,7 @@ body{
     height: 40px;
     border: none;
     border-radius: 0px;
-    box-shadow: 0 1px 4px rgba(41,51,57,.5);
+    box-shadow: 0 1px 15px #2d6ca3;
 
 }
 .submenu-reponsive .nav > li {
@@ -543,12 +543,20 @@ body{
     font-size: 13px;
 
 }
+
 .submenu-reponsive .nav >li >ul{
     background: #0083d3;
     padding: 0px;
 }
+
 .submenu-reponsive .nav >li >ul > li{
     border-bottom: 1px solid blue;
+}
+.submenu-reponsive .nav >li >ul > li > ul{
+  display: none;
+}
+.submenu-reponsive .nav >li >ul > li:hover ul{
+  display: block;
 }
 .submenu-reponsive .nav >li >ul > li a:hover{
     color: #555;
@@ -561,180 +569,70 @@ body{
 /* End Menu */
 
 
-/*slider*/
+/* Slider Header */
 
-.slideshow {
-  position: relative;
-  height: 370px;
-  overflow: hidden;
+.carousel-inner>.item>a>img{
+  height: 350px;
 }
-
-.slideshow div {
-  position: absolute;
-  top: 0px;
-  ;
-  left: 0;
-  z-index: 8;
+.slider-header {
+  padding: 0px;
+  box-shadow: 0 8px 8px #2d6ca3;
+  border: 1px solid #2d6ca3;
 }
-
-.pic-1 {
-  position: relative;
-  width: 750px;
-  /*The image slide show width*/
-  height: 360px;
-  /*The image slide show height*/
-  /* display: inline-block;*/
+.slider-header img{
+  width: 100%;
+  height: 350px;
 }
-
-.slideshow div.active {
-  z-index: 10;
+.slider-header .list-group{
+  padding-right: 0px;
 }
-
-.slideshow div.lastactive {
-  z-index: 9;
+.slider-header .list-group li h4{
+  font-size: 15px;
+  margin-top: 8px;
+  margin-bottom: 9px;
 }
-
-.entry {
-  opacity: 0.5;
-  background: #fff;
-  position: absolute;
-  bottom: 0;
-
-  width: 95%;
-  height: 50px;
-  margin: 0px 15px 0px 15px;
+.slider-header .carousel-caption h4{
+  margin: 3px 0px;
 }
-
-.run {
-  position: absolute;
-  border: 1px solid #06368c;
-  width: 90%;
-  background-color: #fff;
-  color: #000;
-  top: 85%;
-  left: 5%;
-  /* opacity: 0.5;*/
-  height: 30px;
-}
-
-
-.carousel-caption-1 {
-  position: absolute;
-  top: 72%;
-  left: 5%;
-  background: #06368c;
-  display: block;
-  opacity: 0.8;
-  width: 90%
-}
-
-.h2-text-1 {
-  font-size: 18px;
-  line-height: 18px;
+.slider-header .carousel-caption h4 a{
   color: #fff;
-  display: block;
-  margin-left: 10%;
-  border-left: 2px solid #fff;
-  text-transform: uppercase;
-  padding-left: 10px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.slider-header .carousel-caption p{
+  margin-bottom: 3px;
+  color: rgba(255, 255, 255, 0.84);
+}
+#myCarousel .carousel-caption {
+  left:0;
+  right:0;
+  bottom:0;
+  text-align:left;
+  padding:10px;
+  background:rgba(0,0,0,0.6);
+  text-shadow:none;
 }
 
-.li-run li {
-  display: inline;
-  margin: 0px 5px 0px 5px;
-  font-size: 18px;
-  line-height: 28px;
+#myCarousel .list-group {
+  position:absolute;
+  top:0;
+  right:0;
+}
+#myCarousel .list-group-item {
+  border-radius:0px;
+  cursor:pointer;
+}
+#myCarousel .list-group .active {
+  background-color:#eee;  
 }
 
-
-
-
-
-
-/*.text-hh h2 {
-
-    font-size: 20px;
-    color: #fff;
-    font-weight: bold;
-    display: block;
-    margin-left: 15%;
-    border-left: 2px solid #fff;
-    text-transform: uppercase;
-    height: 40px;
-}*/
-
-.img-logo-1 {
-  height: 30px;
-  margin: 7px;
+@media (min-width: 992px) { 
+  #myCarousel {padding-right:33.3333%;}
+  #myCarousel .carousel-controls {display:none;}  
 }
-
-.carousel-caption {
-  /* /* right: 20%; */
-  /* left: 20%; */
-  */ right: 5%;
-  left: 5%;
-  padding-bottom: 30px;
-}
-
-.pic-img {
-  max-height: 340px;
-  width: 100%;
-  display: block;
-}
-
-.pic-img-2 {
-  max-height: 265px;
-  width: 100%;
-  display: block;
-}
-
-.pic-img-3 {
-  max-height: 255px;
-  width: 100%;
-  display: block;
-}
-
-.slick-slide .image {
-  padding: 8px;
-}
-
-
-
-
-
-/*.slick-default {
-  position: relative;
-  clear: both;
-  }*/
-
-.item {}
-
-.block-main-banner-text {
-  background-color: rgba(196, 196, 196, 0.58);
-  padding: 25px;
-  width: 60%;
-  height: 40px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 40px;
-  z-index: 9;
-  /* margin-top: auto;
-    margin-bottom: auto;
-    z-index: 9;*/
-}
-
-.inner {
-  margin-bottom: 30px;
-}
-
-h3 {
-  margin-top: 0;
-  color: #000;
-}
-
-.inner a {
-  color: #eee;
+@media (max-width: 991px) { 
+  .carousel-caption p,
+  #myCarousel .list-group {display:none;} 
 }
 
 
@@ -742,15 +640,15 @@ h3 {
 
 
 
-/*.slick-prev {
-    left: 0px;
-  }
-  .slick-next {
-    left: inherit;
-    right: 0px;
-    background: url(@bg-banner-arrow-right) no-repeat center;
-  }
-}*/
+
+
+
+
+
+
+
+
+
 
 
 /*tintuc*/
@@ -1072,6 +970,7 @@ ul li {
   color: #fff;
   padding-bottom: 20px;
   padding-top: 40px;
+  margin-top: 100px;
  
 }
 .top-footer{
@@ -1565,11 +1464,36 @@ span.title {
 
 /* tintuc */
 
+.info-video .tintuc_left{
+  border: 1px solid #0083d3;
+}
+.info-video .col-md-7{
+  margin-top: 10px;
+}
+.info-video .col-md-5{
+  margin-top: 5px;
+}
+.video-content {
+  text-align: center;
+  background: #0080ce;
+}
+.video-content a{
+  color: #fff;
+  text-decoration: none;
+}
 
+
+/* banner-info */
+.banner-info{
+  margin-bottom: 10px;
+}
+.banner-info img{
+  width: 100%;
+}
 /* congnghe tin tuc sanpham moi truong */
 
 .newss-tt1 {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .newss-tt2 {
@@ -1581,7 +1505,6 @@ span.title {
 }
 
 .tintuc_left {
-  margin-bottom: 10px;
   border: 1px solid #8a989f;
   /*padding: 0 15px;*/
   background: #fff;
@@ -1591,8 +1514,12 @@ span.title {
 
 .left-news {
   padding: 4px 15px 2px 15px;
+  display: grid;
 }
-
+.info-video .left-news{
+  padding: 4px 15px 2px 15px;
+  display: block;
+}
 .left-news h4 {
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -1605,11 +1532,49 @@ span.title {
     margin-top: 15px;
 }
 
+/* Left fix */
+.text-center-title {
+  text-align: center;
+}
+.right-fix .carousel-indicators{
+  display: none;
+}
+.right-fix .info-text ul{
+  padding-left: 10px;
+  margin-bottom: 0px;
+  padding-top: 3px;
+}
+.right-fix .info-text a{
+  padding-bottom: 15px;
+  font: normal 11px Arial;
+}
+.right-fix .info-text ul li{
+  list-style-type: disc;
+  font-size: 12px;
+  font-weight: bold;
+}
+.right-fix .left-news .slide {
+  display: -webkit-inline-box;
+}
+.right-fix .user-vip{
+  width: 100%;
+  text-align: center;
+  background: red;
+  padding: 6px;
+  margin-bottom: 7px;
+}
+.right-fix .user-vip a{
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .nav li:hover ul {
-       /* display: block;*/
+        display: block;
       /*  left: 0;*/
     }
     .content-page .container {
@@ -1625,7 +1590,7 @@ span.title {
         padding-right: 5px;
     }
     #new-page .left-fix .col-md-9 .right{
-        padding-left: 5px;
+       
     }
     #new-page .right-fix .col-md-3{
         padding: 0px;
@@ -1724,9 +1689,7 @@ span.title {
   position: relative;
 }
 
-ul.nav li.dropdown:hover>ul.dropdown-menu {
-  display: block !important;
-}
+
 
 .dropdown-menu>li>a:hover {
   color: #000;
@@ -1754,4 +1717,45 @@ ul.nav li.dropdown:hover>ul.dropdown-menu {
   background-color: #fff;
   border-color: #0796ff;
 }
+
+
+
+
+.team-sec{float: left;width: 100%;}
+.team .photo {width: 150px; height: 150px; display: inline-block; overflow: hidden; position: relative; }
+.photo-shadow {position: absolute; z-index: -1; top: 12px; left: 16px; bottom: -10px; border: 1px solid #E3E3E3; height: 150px; width: 150px; background: #fff; }
+.col-item{position: relative;}
+.team{margin-top: 60px;}
+.team .photo img{width: 100%;    vertical-align: middle;position: relative;}
+.social-connect{margin-top: 13px;}
+.info{margin-top: 22px;}
+.info .name{font-size: 18px;font-weight: 600;margin-bottom: 2px;}
+.info .degination{font-size: 16px;font-weight: 300;font-style: italic;color: #8B8B8B;}
+.social-connect a{ display: inline-block; border: 1px solid #E3E3E3; font-size: 14px; color: #919191; width: 24px; height: 24px; text-align: center; line-height: 24px;margin-right: 4px;}
+.social-connect a .fa{margin: 0;}
+.social-connect a:hover{background-color: #4EBEE9;color: #fff;} 
+.carousel-line{    
+  border: 1px solid #ddd;
+  height: 220px;
+  position: absolute;
+  bottom: -50px;
+  width: 110%;
+  left: -5.5%;
+  background: #81bbe7;
+  opacity: 0.7;
+}
+.carousel-line > .controls{position: absolute; bottom: -16px; left: 50%; margin-left: -50px; background: #fff; padding: 0px 5px; color: #000;}
+.carousel-line > .controls > a{    color: #868686; font-size: 15px; font-weight: 300;}
+
+
+
+
+
+
+
+
+
+
+
+
 
