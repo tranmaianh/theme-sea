@@ -1,16 +1,8 @@
 jQuery(document).ready(function($) {
-  $('.fade').slick({
-    dots: true,
-    infinite: true,
-    speed: 500,
-    fade: true,
-    cssEase: 'linear'
-  });
   $('.carousel').carousel({
   interval: 6000
 });
-  $('.single-item').slick();
- /*$('dropdown-toggle').dropdown('toggle');*/
+  
  $(document).ready(function()
     {
         initSlideShow();

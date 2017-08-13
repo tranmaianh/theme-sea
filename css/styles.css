@@ -2,7 +2,9 @@
 body{
 
     color: #000;
-    background: #edf2fb;
+    background-image: url('../images/BGTop.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
     font-family: 'Open Sans', Arial, sans-serif;
     font-weight: normal;
     font-size: 14px;
@@ -171,11 +173,10 @@ body{
 }
 /*END MOdal - Dialog*/
 /*Header*/
-#header-top{
+/*#header-top{
     background: url('../images/BGTop.png') no-repeat;
-    
-
-}
+  
+}*/
 .header-top{
     background: #0083d3;
     color: #fff;
@@ -630,7 +631,7 @@ body{
 
 #new-page {
   padding-top: 20px;
-  background: #edf2fb;
+  background: transparent;
 }
 
 .img-ness {
@@ -736,6 +737,7 @@ body{
   margin: 10px 0px 0px 180px;
   display: block;
   padding-top: 7px;
+  -webkit-padding-start:0px;
 }
 
 .border-bottom {
@@ -1519,6 +1521,7 @@ span.title {
   padding-left: 10px;
   margin-bottom: 0px;
   padding-top: 3px;
+  -webkit-padding-start: 0px;
 }
 .right-fix .info-text a{
   padding-bottom: 15px;
@@ -1545,36 +1548,6 @@ span.title {
   font-weight: bold;
 }
 
-
-
-/* Large devices (large desktops, 1200px and up) */
-/*@media (min-width: 1200px) {
-    .nav li:hover ul {
-        display: block;
-   
-    }
-    .content-page .container {
-        padding: 0px;
-    }
-    .content-page .container .col-md-8 {
-        padding-right: 0px;
-    }
-    #new-page .left-fix .col-md-9{
-        padding-left: 0px;
-    }
-    #new-page .left-fix .col-md-9 .left{
-        padding-right: 5px;
-    }
-    #new-page .left-fix .col-md-9 .right{
-       
-    }
-    #new-page .right-fix .col-md-3{
-        padding: 0px;
-    }
-    .text-top .content-text .col-md-5{
-        padding: 0px;
-    }
-}*/
 /*/MENU*/
 /*.header-nav {
   background-color: #fcfcff;
@@ -1722,6 +1695,35 @@ span.title {
 }
 .carousel-line > .controls{position: absolute; bottom: -16px; left: 50%; margin-left: -50px; background: #fff; padding: 0px 5px; color: #000;}
 .carousel-line > .controls > a{    color: #868686; font-size: 15px; font-weight: 300;}
+/*./page-news*/
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: transparent;
+    font-size: 17px;
+    -webkit-padding-start:0px;
+}
+ul.breadcrumb li {display: inline;}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "\f105";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+ul.breadcrumb li a {
+    color: #000;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+.new-img-1{
+  padding-left: 20%;
+}
 
 
 

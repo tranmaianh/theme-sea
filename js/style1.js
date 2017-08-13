@@ -185,7 +185,7 @@ window.onload = calendar;
 //SHow Slide Logo
 $(document).ready(function() {
     $('#Carousel').carousel({
-        interval: 3000
+        interval: 5000
     })
 });
 
