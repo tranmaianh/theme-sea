@@ -17,9 +17,8 @@
           /* padding-left: 0px;*/
            padding-right: 0px;
     }
-    #new-page .left-fix .col-md-9 .right{
-        
-       
+    #new-page .left-fix .col-md-9 .right{ 
+       padding-right: 0px;
     }
     #new-page .right-fix .col-md-3{
         padding: 0px;
@@ -30,7 +29,6 @@
 }
 
 @media (max-width:1024px) {
- 
   .fs {
     left: 86%;
   }
@@ -131,12 +129,12 @@
   .fs {
     top: -2px;
   }
-  #myCarousel {padding-right:33.3333%;}
-  #myCarousel .carousel-controls {display:none;}  
+ /* #myCarousel {padding-right:33.3333%;}
+  #myCarousel .carousel-controls {display:none;}  */
 }
 @media (max-width: 991px) { 
-  .carousel-caption p,
-  #myCarousel .list-group {display:none;} 
+  /*.carousel-caption p,
+  #myCarousel .list-group {display:none;} */
 }
 
 

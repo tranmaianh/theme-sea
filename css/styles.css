@@ -10,6 +10,8 @@ body {
 }
 
 
+
+
 /*MOdal - Dialog*/
 
 .modal {
@@ -157,6 +159,8 @@ body {
 }
 
 
+
+
 /*footer modal login*/
 
 .modal-content .tab-pane .modal-footer {
@@ -176,9 +180,11 @@ body {
   margin-top: 0px;
   color: #438dc4;
   text-decoration: underline;
- /* margin-right: 213px;*/
+  /* margin-right: 213px;*/
   font-size: 14px;
 }
+
+
 
 
 /*form Register*/
@@ -202,6 +208,8 @@ body {
   margin-bottom: 30px;
   text-transform: uppercase;
 }
+
+
 
 
 /*END MOdal - Dialog*/
@@ -261,6 +269,8 @@ body {
 }
 
 
+
+
 /*footer-icon*/
 
 .icon-fa:before {
@@ -288,6 +298,8 @@ body {
 .fa-linkedin-i:before {
   content: "\f0e1";
 }
+
+
 
 
 /*end*/
@@ -416,6 +428,8 @@ body {
 
 
 
+
+
 /* DATE AND SEARCH */
 
 #calendar {
@@ -494,6 +508,8 @@ body {
 }
 
 
+
+
 /* END DATE AND SEARCH */
 
 
@@ -549,6 +565,8 @@ body {
 }
 
 
+
+
 /*.fa-search:before{
     position: absolute;
     top:1%;
@@ -588,6 +606,8 @@ body {
 .search::-webkit-input-placeholder {
   color: #a0a0a1;
 }
+
+
 
 
 /*Menu*/
@@ -646,7 +666,6 @@ body {
   padding-top: 10px;
 }
 
-
 /* End Menu */
 
 
@@ -657,7 +676,7 @@ body {
 }
 
 .slider-header {
-  padding: 0px;
+  padding: 0px 15px;
   box-shadow: 0 8px 8px #2d6ca3;
   border: 1px solid #2d6ca3;
 }
@@ -669,6 +688,12 @@ body {
 
 .slider-header .list-group {
   padding-right: 0px;
+  -webkit-padding-start: 0px;
+  margin: 0 0px 0px -30px;
+}
+
+.margin-carousel {
+  margin: 0px 0px 0px -15px;
 }
 
 .slider-header .list-group li h4 {
@@ -718,6 +743,8 @@ body {
 }
 
 
+
+
 /*tintuc*/
 
 #new-page {
@@ -740,6 +767,8 @@ body {
   position: absolute;
   top: 0px;
 }
+
+
 
 
 
@@ -1036,6 +1065,8 @@ ul li {
 }
 
 
+
+
 /*//////////footer//////////////*/
 
 
@@ -1084,6 +1115,8 @@ ul li {
 
 
 
+
+
 /*form*/
 
 .form-group {
@@ -1109,6 +1142,8 @@ ul li {
 .padding-top {
   padding-top: 20px;
 }
+
+
 
 
 /*.ul-icon li  {
@@ -1149,6 +1184,8 @@ ul li {
   border-bottom: 1px solid #fff;
   /*border-top: 1px solid #fff;*/
 }
+
+
 
 
 
@@ -1213,6 +1250,8 @@ ul li {
   -o-animation: my 700ms infinite;
   animation: my 700ms infinite;
 }
+
+
 
 
 
@@ -1290,6 +1329,8 @@ ul li {
 .padd-bottom {
   padding-top: 10px;
 }
+
+
 
 
 
@@ -1439,6 +1480,8 @@ span.title {
 
 
 
+
+
 /*nut next*/
 
 .slick-prev {
@@ -1469,6 +1512,8 @@ span.title {
 .slick-slide a:hover {
   text-decoration: none
 }
+
+
 
 
 
@@ -1539,6 +1584,8 @@ span.title {
 
 
 
+
+
 /**/
 
 
@@ -1573,6 +1620,8 @@ span.title {
 
 
 
+
+
 /* banner-info */
 
 .banner-info {
@@ -1582,6 +1631,8 @@ span.title {
 .banner-info img {
   width: 100%;
 }
+
+
 
 
 /* congnghe tin tuc sanpham moi truong */
@@ -1631,51 +1682,54 @@ span.title {
 }
 
 
+
+
 /* Left fix */
 
 .text-center-title {
   text-align: center;
 }
 
-.right-fix .carousel-indicators {
+.carousel-indicators {
   display: none;
 }
 
-.right-fix .info-text ul {
+.info-text ul {
   padding-left: 10px;
   margin-bottom: 0px;
   padding-top: 3px;
   -webkit-padding-start: 0px;
 }
 
-.right-fix .info-text a {
+.info-text a {
   padding-bottom: 15px;
   font: normal 11px Arial;
 }
 
-.right-fix .info-text ul li {
+.info-text ul li {
   list-style-type: disc;
   font-size: 12px;
   font-weight: bold;
 }
 
-.right-fix .left-news .slide {
+.left-news .slide {
   display: -webkit-inline-box;
 }
 
-.right-fix .user-vip {
+.user-vip {
   width: 100%;
   text-align: center;
   background: red;
   padding: 6px;
   margin-bottom: 7px;
 }
-
-.right-fix .user-vip a {
+.user-vip a {
   color: #fff;
   font-size: 15px;
   font-weight: bold;
 }
+
+
 
 
 /*/MENU*/
@@ -1729,6 +1783,8 @@ span.title {
   text-decoration: none;
   color: #000;
 }
+
+
 
 
 
@@ -1915,6 +1971,8 @@ span.title {
 }
 
 
+
+
 /*./page-news*/
 
 ul.breadcrumb {
@@ -1953,6 +2011,13 @@ ul.breadcrumb li a:hover {
   padding-left: 20%;
 }
 
+.comments{
+  border: none;
+  border-radius:0px;
+  padding: 50px 5px;
+  border-bottom: 1px solid #ddd;
+}
+
 
 /*./page-video*/
 
@@ -1968,12 +2033,14 @@ ul.breadcrumb li a:hover {
 
 .items {
   margin-bottom: 20px;
-   margin: 0px 0px;
+  margin: 0px 0px;
 }
-.items img{
- 
+
+.items img {
+
   padding: 0px 15px 0px 20px;
 }
+
 .items a {
   text-decoration: none;
   color: #000;
@@ -2019,9 +2086,11 @@ ul.breadcrumb li a:hover {
 }
 
 
+
+
 /*./end*/
 
-.right-fix {
+.news-video {
   margin-top: 15px;
 }
 
