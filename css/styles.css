@@ -1100,15 +1100,18 @@ ul li {
 .list-left {}
 
 .list-left h5 {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 30px;
   color: #fff;
 }
 
 .text-label {
-  font-size: 18px;
+  font-size: 14px;
   color: #fff;
   padding: 0px 0px 20px 0px;
+}
+.padding-top h4{
+  font-size: 14px;
 }
 
 
@@ -1130,7 +1133,7 @@ ul li {
 .submit {
   position: absolute;
   top: 0px;
-  left: 81%;
+  left: 82%;
   /* border-radius: 0px 6px 6px 0px;*/
 }
 
