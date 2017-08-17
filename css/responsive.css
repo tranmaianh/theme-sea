@@ -32,6 +32,9 @@
 }
 
 @media (max-width:1024px) {
+  .navbar {
+  min-height: auto;
+}
 
   /*.left{
     padding: 0px;
