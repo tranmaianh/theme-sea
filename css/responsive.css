@@ -15,10 +15,10 @@
   }
   #new-page .left-fix .col-md-9 .left {
     /* padding-left: 0px;*/
-  /*  padding-right: 0px;*/
+    /*  padding-right: 0px;*/
   }
   #new-page .left-fix .col-md-9 .right {
-   /* padding-right: 0px;*/
+    /* padding-right: 0px;*/
   }
   #new-page .right-fix .col-md-3 {
     padding: 0px;
@@ -33,9 +33,32 @@
 
 @media (max-width:1024px) {
   .navbar {
-  min-height: auto;
-}
-
+    min-height: auto;
+  }
+  .left {
+    padding: 0px;
+  }
+  .right {
+    padding: 0px;
+  }
+  .news-right {
+    margin: 0px -15px;
+  }
+  .banner-info {
+    margin: 0px -15px;
+  }
+  .info-video {
+    margin: 0px -15px;
+  }
+  .tintuc_left {
+    border: 1px dotted #0083d3;
+  }
+  .info-video .tintuc_left {
+    border: 1px dotted #0083d3;
+  }
+  .submit {
+    left: 80%;
+  }
   /*.left{
     padding: 0px;
   }*/
@@ -81,7 +104,7 @@
   .text-uppercase {
     background-size: 100%;
     /* background: url(../images/8.jpg) no-repeat center;*/
-   /* opacity: 0.5;*/
+    /* opacity: 0.5;*/
     background: #46a2d;
   }
   .submenu-reponsive .nav>li {
@@ -128,6 +151,20 @@
   .submenu-reponsive .navbar {
     height: auto;
   }
+  .team .photo {
+    width: 140px;
+    height: 140px;
+  }
+  .photo-shadow {
+
+    top: 12px;
+    left: 12px;
+    bottom: -10px;
+    border: 1px dotted #000;
+    height: 120px;
+    width: 120px;
+    background: #fff;
+  }
 }
 
 @media (max-width:992px) {
@@ -141,15 +178,26 @@
   }
   /* #myCarousel {padding-right:33.3333%;}
   #myCarousel .carousel-controls {display:none;}  */
+  .header-winner .title-header h1 {
+    float: none;
+  }
 }
-
-@media (max-width: 991px) {
-  /*.carousel-caption p,
-  #myCarousel .list-group {display:none;} */
-}
-
 
 @media (max-width:768px) {
+  .photo-shadow {
+
+    top: 4px;
+    left: 70px;
+    bottom: -10px;
+    border: 1px dotted transparent ;
+    background: transparent;
+  }
+  body {
+    height: auto;
+    color: #000;
+    background-image: url(../images/BGTop.png);
+    background-size: auto;
+  }
   .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
   .dropdown-menu>li>a:hover {
     color: #FFF!important;
@@ -213,5 +261,19 @@
     top: -2px;
     /*left:88%;*/
     left: 85%;
+  }
+  .team .photo {
+    width: 140px;
+    height: 140px;
+  }
+  .photo-shadow {
+
+    top: 4px;
+    left: 55px;
+    bottom: -10px;
+    border: 1px dotted transparent;
+    height: 90px;
+    width: 90px;
+    background: transparent;
   }
 }
