@@ -2407,3 +2407,33 @@ a.img-content img {
 .pages-previous>li>a {
   border: 1px solid #0033FF;
 }
+/*lien he*/
+.form-left{
+  padding: 0px 15px;
+}
+.form-text{
+  padding: 20px 0px 20px 20px;
+  border-color: transparent;
+  border: 1px dotted #96d7ef;
+  border-radius: 0px;
+  margin-bottom: 10px;
+ 
+}
+.form-text:focus {
+   border-color: transparent;
+}
+.letter-text{
+  padding: 20px 0px 125px 20px;
+  margin-bottom: 20px;
+}
+.btn-submit-letter{
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0080ce;
+  padding: 5px 30px;
+  border-radius: 0px;
+}
+.mapview-popup{
+  margin: 25px 0px 0px 0px;
+}
