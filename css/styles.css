@@ -2437,3 +2437,69 @@ a.img-content img {
 .mapview-popup{
   margin: 25px 0px 0px 0px;
 }
+/*nganhhang*/
+.content-fisher{
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: transparent;
+  opacity: 0.5;
+}
+
+.content-fisher:hover .overlay {
+  opacity: 1;
+}
+
+.text-view {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text-view a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.fish{
+  padding-bottom: 45px;
+  border-bottom: 1px solid #000;
+}
+.list-icon{
+  float: right;
+  margin-top: 20px;
+
+}
+.list-icon li{
+  display: inline;
+  margin-right: 15px;
+}
+.list-icon li i{
+  padding-right: 15px;
+  font-size: 16px;
+}
+.list-icon li i:before{
+  font-size: 16px;
+  color:  #0080ce;
+   margin-right: 10px;
+}
