@@ -1,6 +1,9 @@
 /* Large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
+  .search-xs {
+    display: none;
+  }
   .nav li:hover ul {
     /*display: block;*/
   }
@@ -32,6 +35,14 @@
 }
 
 @media (max-width:1024px) {
+  .header-winner .title-header h1 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .header-winner .title-header h2 {
+    font-size: 16px;
+    line-height: 15px;
+  }
   .navbar {
     min-height: auto;
   }
@@ -133,7 +144,7 @@
     border-bottom: 1px solid #fff;
   }
   .icon-top {
-    display: none;
+    /*display: none;*/
   }
   .icon-hidden a {
     color: #000;
@@ -181,15 +192,38 @@
   .header-winner .title-header h1 {
     float: none;
   }
+  .text-info-vsa {
+     margin-top: 0px; 
+    text-align: center;
+}
 }
 
 @media (max-width:768px) {
+  .map-time {
+    float: none;
+    text-align: center;
+  }
+  .search-md {
+    display: none;
+  }
+  .search-xs {
+    display: block;
+  }
+  .input-group{
+    margin-bottom: 15px;
+  }
+  .mobile-icon {
+    margin: 15px 0px 15px 30px;
+  }
+  .search-input{
+    width: 50%;
+  }
   .photo-shadow {
 
     top: 4px;
     left: 70px;
     bottom: -10px;
-    border: 1px dotted transparent ;
+    border: 1px dotted transparent;
     background: transparent;
   }
   body {
@@ -253,6 +287,14 @@
   }
   .email-form {
     font-size: 12px;
+  }
+   .header-winner .title-header h1 {
+    font-size: 26px;
+    line-height: 26px;
+  }
+  .header-winner .title-header h2 {
+    font-size: 14px;
+    line-height: 14px;
   }
 }
 

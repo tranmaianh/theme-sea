@@ -1,3 +1,4 @@
+
 body {
 
   color: #000;
@@ -11,13 +12,20 @@ body {
 
 
 
-
+.fa-google-plus-z:before {
+       content: "\f0d5";
+    position: absolute;
+    top: 16px;
+    left: 40px;
+    /* font-size: 25px; */
+    color: #e3e9ec;
+}
 
 /*MOdal - Dialog*/
 
 .modal {
-  margin-left: 63%;
-  margin-top: 20px;
+  margin-left: 53%;
+  margin-top: 25px;
 }
 
 .modal-content {
@@ -54,7 +62,7 @@ body {
 }
 
 .modal-content .tab-content .tab-pane .form-login-fb-g {
-  height: 100px;
+  margin-bottom: 20px;
 }
 
 .modal-content .tab-content .tab-pane p {
@@ -66,13 +74,12 @@ body {
 }
 
 .modal-content .tab-content .active .form-facebook {
-  background: #4267b2;
-  width: 174px;
-  height: 37px;
-  border-radius: 2px;
-  margin-left: 19px;
-  margin-top: 10px;
-  padding: 0px;
+background: #4267b2;
+    color: #fff;
+    height: 37px;
+    border-radius: 2px;
+    margin-top: 10px;
+    padding: 10px 20px 0px 20px;
 }
 
 .modal-content .tab-content .active .form-facebook .sp-icon {
@@ -81,11 +88,11 @@ body {
 
 .modal-content .tab-content .active .form-google {
   background: #dd4b39;
-  width: 174px;
+ color: #fff;
   height: 37px;
-  border-radius: 2px;
-  margin-left: 12px;
-  margin-top: 10px;
+    border-radius: 2px;
+    margin-top: 10px;
+    padding: 10px 20px 0px 40px;
 }
 
 .modal-content .tab-content .active .fa {
@@ -248,15 +255,21 @@ body {
 }
 
 .icon-top button {
-  background: #0080ce;
+  background: transparent;
   border: none;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
 }
 
 .icon-top button a {
   text-decoration: none;
+   color: #fff;
 }
+.icon-top button a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
 
 .cricle {
   display: inline-block;
@@ -346,11 +359,6 @@ body {
 .fa-user:before {
 
   margin-right: 5px;
-}
-
-.img {
-  display: inline-block;
-  height: 120px;
 }
 
 .langu {
@@ -535,32 +543,21 @@ body {
   padding-top: 20px;
 }
 
-.header-winner .col-md-9 {
-  padding-left: 0px;
-}
-
-.header-winner .col-md-9 .col-md-3 {
-  padding-left: 0px;
-}
-
-.header-winner .container {
-  padding: 0px;
-}
-
 .header-winner .title-header h1 {
-  float: left;
   margin-bottom: 0px;
-  font-size: 38px;
+  font-size: 36px;
   color: #0069ba;
-  text-shadow: 1px 0px #808080;
+  text-shadow: 2px 2px #fff;
   letter-spacing: 1.5px;
   font-weight: bold;
+  line-height: 36px;
 }
 
 .header-winner .title-header h2 {
   color: #61727d;
   font-size: 18px;
   display: -webkit-inline-box;
+  line-height: 18px;
 }
 
 .text-info-vsa {
@@ -1062,14 +1059,14 @@ ul.dropdown-menu a:focus {
   color: #333;
 }
 
-.text-new-1 {
+/*.text-new-1 {
   margin: 10px 0px 10px 0px;
   font-size: 14px;
   line-height: 20px;
-}
+}*/
 
 .tag-link {
-  display: inline;
+ /* display: inline;*/
 }
 
 .link-thoisu {
@@ -1081,7 +1078,7 @@ ul.dropdown-menu a:focus {
 .h5-tt {
   color: #3949ab;
   font-size: 12px;
-  line-height: 16px;
+  line-height: 12px;
 }
 
 .p-text {
@@ -1388,7 +1385,7 @@ ul li {
 }
 
 .padd-video {
-  padding: 4px 0px 20px 0px;
+  padding: 4px 0px 15px 0px;
   border-bottom: 1px solid #fff;
 }
 
@@ -1400,17 +1397,16 @@ ul li {
 
 .text-new-2 {
   /*  margin: 15px 0px 10px 10px;*/
-  font-size: 14px;
-  line-height: 20px;
+ /* font-size: 14px;
+  line-height: 20px;*/
 }
 
 .a-link {
   font-size: 16px;
-  line-height: 18px;
+  line-height: 16px;
   color: #000;
-  /*white-space: nowrap;*/
-  text-overflow: ellipsis;
-  overflow: hidden;
+  margin-bottom: 10px;
+  display: inline-block;
 }
 
 .a-link:hover {
@@ -2188,7 +2184,7 @@ ul.breadcrumb li a:hover {
   content: "\f09a";
   position: absolute;
   top: 16px;
-  left: 60px;
+  left: 40px;
   /* font-size: 25px; */
   color: #e3e9ec;
 }
