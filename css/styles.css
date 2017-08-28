@@ -2502,3 +2502,114 @@ a.img-content img {
   color:  #0080ce;
    margin-right: 10px;
 }
+/* Dang ky Hoi Vien dangKyHV */
+  .register-btn .btn{
+    background: #ff602e;
+    border-radius: 0px;
+    border: none;
+    width: 300px;
+    height: 40px;
+
+  }
+  .register-btn .btn a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .register-btn .btn span{
+    font-size: 24px;
+    padding-right: 15px;
+  }
+  .register-btn .box-btn2{
+    margin-top: 20px;
+  }
+  .text-bold {
+    color: #333;
+  }
+
+
+  /* ListTinTuc.html */
+  .img-list-news img{
+    width: 100%;
+  }
+  .list-news .box-info h2 {
+    margin: 0px;
+  }
+  .list-news .box-info h2 a{
+    display: block;
+    font-weight: bold;
+    color: #0162b2;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .list-news .box-info h2 a:hover{
+    color: #0083d3;
+  }
+  .list-news .box-info span{
+    font-size: 10px;
+  }
+  .list-news .box-info .text{
+    font-size: 13px;
+    text-align: justify;
+    display: block;
+    color: #333;
+  }
+  .list-news .news-more{
+    margin-top: 5px;
+    background: #9bd6f1;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+  }
+  .list-news .news-more h3{
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0px;
+  }
+  .list-news .news-more .box-news{
+    padding: 5px 15px 0px 15px;
+  }
+  .list-news .news-more .box-news .list-block {
+    margin-top: 3px;
+  }
+  .list-news .news-more .box-news ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 13px;
+  }
+  .list-news .news-more .box-news ul li a:hover{
+    color: #0162b2;
+  }
+  .list-news .news-more .box-news ul li{
+    padding: 0px;
+  }
+
+  .list-news2 {
+    border-top: #e6e6e6 solid 1px;
+    padding: 10px;
+  }
+  .list-news2 .box-info h2 {
+    margin: 0px;
+    font-size: 16px;
+  }
+  .list-news2 .box-info h2 a{
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  .list-news2 .box-info h2 a:hover{
+    color: #0083d3;
+  }
+  .list-news2 .box-info span{
+    font-size: 10px;
+  }
+  .list-news2 .box-info .text{
+    font-size: 12px;
+    text-align: justify;
+    display: block;
+    color: #333;
+  }
+  .box-info , .news-more{
+    margin-left: -15px;
+  }
